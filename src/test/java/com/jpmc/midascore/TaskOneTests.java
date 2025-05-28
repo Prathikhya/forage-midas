@@ -6,11 +6,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskOneTests {
+public class TaskOneTests {
     static final Logger logger = LoggerFactory.getLogger(TaskOneTests.class);
 
     @Test
-    void task_one_verifier() throws InterruptedException {
+    public void task_one_verifier() throws InterruptedException {
         Thread.sleep(2000);
         logger.info("----------------------------------------------------------");
         logger.info("----------------------------------------------------------");
